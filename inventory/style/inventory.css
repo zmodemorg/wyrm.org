@@ -1,0 +1,13 @@
+body {color:khaki; background:black; font-family: monospace;}
+a:link { color: cyan; } 
+a:hover { color:pink; }
+a:visited { color: yellow; }
+h1 {color: wheat;}
+p {color: cyan; border: 1px solid yellow;}
+table {border-left: 1px solid purple; border-right: 1px solid purple;}
+th {background: darkgrey; color: blue}
+td {border-bottom: 1px solid purple; background-color:darkgreen; color:yellow;}
+.inventory {margin: auto;float: left; padding: auto 0;}
+.right_bar {color: antiquewhite; margin: auto; float: right; position: relative; background: darkgrey; border: 5px outset grey;} 
+.main { overflow: auto; margin: 0, auto; }
+.news { float: left; max-width: 50%;}

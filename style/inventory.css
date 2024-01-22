@@ -1,0 +1,65 @@
+body {color:blanchedalmond; background:black; font-family: monospace;}
+
+a:link { color: lightblue; text-decoration-color: darkcyan;} 
+a:visited { color: silver; text-decoration-color: chocolate;}
+a:hover { color:skyblue; text-decoration-color: cyan;}
+
+a.postlink:link { color: slategrey; text-decoration-color: darkslategrey;} 
+a.postlink:visited { color: grey; text-decoration-color: dimgrey;}
+a.postlink:hover { color:lightgrey; text-decoration-color: darkcyan;}
+
+h1,h2,h3,h4,h5 {color: moccasin;}
+
+p {color: lavenderblush; padding: 0 5px;}
+
+table {border: none;}
+th {background: black; color: yellowgreen; border-bottom: 1px solid darkcyan;}
+td {border: 1px solid darkolivegreen; border-radius: 4px; background-color:black; padding-left: 4px; padding-right: 4px; color:yellow;}
+
+pre {background: darkblue; color: yellow; margin: 8px; padding: 5px; }
+code {background: darkslateblue; color: yellow;}
+blockquote {color: whitesmoke; background: black; border: 1px solid dimgrey; box-shadow: 5px 5px dimgray; padding: 3px;}
+
+.inventory {margin: auto; width: 90%; }
+.right_bar {color: antiquewhite; margin: auto; float: right; position: relative; background: black; border: 5px outset cadetblue; padding: 0 5px; max-width: 20%;} 
+.main { margin: 0 auto; max-width: 75%; }
+@media only screen and (max-width: 600px) {.main {margin 0 auto; max-width: 100%;}}
+.news { float: left; max-width: 75%;}
+@media only screen and (max-width: 600px) {.news {float: left; max-width: 70%}}
+.newsitem {border: 1px solid darkcyan; border-radius: 5px; background-image: linear-gradient(black, black); }
+.dateline {color: olivedrab;} 
+.date {color: palegreen;}
+.department {color: palegreen; background-color: black; }
+.footer {color: deepskyblue;}
+.danger {background: black; color: orangered; border: 1px dashed yellow; }
+.nice {background: steelblue; color: honeydew; }
+.correction {background: cornflowerblue; color: yellow; }
+
+/* Styling for the FAQ pages */
+.faqheader {text-align: center;}
+.faqexplainer {color: burlywood;}
+.faq {border: 1px solid darkcyan; padding: 0 5px; color: white;}
+.faqquestion {background-color: black; color: darkcyan;}
+.faqanswer {background-color: black; color: papayawhip;} 
+
+/* Styling for articles if I ever decide to write any */
+.categoryheader {color: darkgoldenrod;}
+.articleheader {text-align: center; color: antiquewhite;}
+.articleabstract {text-align: center; color: greenyellow;}
+.mainarticle {border: 1px solid coral; padding: 0 5px; color: white;}
+.articletext {color: white;}
+.inlinefootnote {color: dimgrey;}
+.footnote {color: darkcyan;}
+.footanswer {background: darkblue; color: whitesmoke;} 
+.articlelist {border: 1px solid firebrick; padding: 0 5px;}
+.articledisclaimer {color: deepskyblue; border: 1px groove yellow; padding: 3px;}
+
+/* A couple of lines for the audio blog and the vlogs and I guess the regular blogs, too*/
+.episodetitle {color: lightblue; }
+.navbox {margin: 5px auto; padding: 5px 0 0 0;}
+table.vidinfo {width: 100%;}
+.blogtags {color: lime;}
+.blogdate {color: thistle;}
+
+/* A few exceptions for the Blocked Sites page */
+table.blockedsites {width: 100%;}

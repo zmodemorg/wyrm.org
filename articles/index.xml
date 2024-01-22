@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?> 
+
+<!-- Category Reference because I will forget:
+
+1 - Internet
+2 - Opinion
+3 - Video Games
+4 - Meta
+5 - Not A Blog
+6 - Getting my time back on the Internet series
+7 - FreeBSD
+8 - Build a website using Fastmail
+99 - Misc
+-->
+
+<!-- The format of the XML file is that the root node, index, can have as many article nodes as needed. The article nodes have attributes of href, which is the url of the article, and category, which is the numeric category listed above (used for sorting). -->
+
+<index>
+  <article href="" category="">
+    <title>Article title</title>
+    <summary>Brief summary of the article</summary>
+  </article>
+</index>
+

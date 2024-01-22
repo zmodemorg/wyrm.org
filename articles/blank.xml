@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="article.xsl"?> 
+
+<articles>
+  <article date="A long time ago">
+    <pagetitle>This shows up in the title bar</pagetitle>
+    <articleheader>This shows up as the title of the article</articleheader>
+    <articleabstract>This is a short summary</articleabstract>
+    <articlebody><p>HTML-formatted text goes here. You can have footnotes<sup class="inlinefootnote">1</sup>, but you have to manually add numbers</p><p>This is another paragraph, with another footnote<sup class="inlinefootnote">2</sup></p></articlebody>
+    <footnotes>
+      <footnote>Footnote number one</footnote>
+      <footnote>Another footnote</footnote>
+    </footnotes>
+  </article>
+</articles>

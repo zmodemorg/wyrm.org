@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="blogentry.xsl"?> 
+
+<blog>
+  <entry date="A long time ago">
+    <pagetitle>This appears in the title bar</pagetitle>
+    <blogtitle>This is the title of the entry</blogtitle>
+    <summary>This is a short summary of the entry that shows up just below the title.</summary>
+    <body>
+<p>The actual blog entry goes here. Full HTML is allowed.</p>
+
+<p>This is another paragraph.</p>
+</body>
+    <taglist>
+      <tag>This is for the taglist at the end</tag>
+      <tag>You can have as many as you want</tag>
+    </taglist>
+  </entry>
+</blog>

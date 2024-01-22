@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="inventory.xsl"?>
+<!-- The 'style' attribute is a link to an external .css file for some local overrides, so that the inventory pages for consoles can look different -->
+<inventory system="The system name. This shows up in the title bar" style="console.css">
+
+<!--There can be any number of 'game' elements. Each 'game' element has one 'title' element and one 'note' element -->
+
+ <game>
+  <title></title>
+  <note></note>
+ </game>
+
+</inventory>

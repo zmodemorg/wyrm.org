@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?> 
+<!-- The 'updated' attribute is there to show when this list was last updated, and it also shows up on the rendered page -->
+<books updated="" >
+
+<!--
+This takes any number of 'book' elements. 'book' has an 'isbn' attribute which is a string to hold the ISBN of the book if it has one. 'title', 'author', 'edition', 'date' (published) should be self-explanatory. 'image' is the location of the full size image for the book, 'thumb' is the location of the smaller thumbnail (which will link to the full sized image in the rendered doc, and the 'alt' attribute is the alt-text that shows up in the rendered file. 'comment' is a freeform comment about the book, can contain HTML.
+ --> 
+<book isbn="">
+<title></title>
+<author></author>
+<edition></edition>
+<date></date>
+<image></image>
+<thumb alt=""></thumb>
+<comment></comment>
+</book>
+</book>
+
+</books>

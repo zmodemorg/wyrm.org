@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="faq.xsl"?> 
+
+<!--This has a root element, 'faqs' with an attribute of 'updated' that can take a string to say when I last updated this list in the rendered file. The root 'faqs' element takes any number of 'faq' elements. Each 'faq' element has a 'question' element and an 'answer' element, both can take arbitrary HTML -->
+<faqs updated="">
+  <faq>
+    <question>Question goes here</question>
+    <answer>Answer goes here.</answer>
+  </faq>
+
+</faqs>

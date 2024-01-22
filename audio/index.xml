@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?> 
+
+<!-- Category Reference because I will forget:
+
+1 - Episode 1
+2 - Episode 2
+
+Etc
+
+-->
+<!-- The format of this XML file is to have the root element 'index' with any number of 'show' elements. The 'show' elements have attributes of 'href' which is the URL of the show file (either relative or absolute) 'date' which is a really just a string, so it can be anything, and 'category' which is used for sorting when it's processed via the XSLT file. There's also a 'title' element, which is the title of the show, and 'summary', which is a short summart of whatever the show is about -->
+<index>
+
+	<show href="" date="" category="">
+	<title></title>
+	<summary></summary>
+	</show>
+
+</index>
+

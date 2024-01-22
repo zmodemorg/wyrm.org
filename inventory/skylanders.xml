@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="skylanders.xsl"?> 
+
+<skylanders>
+
+<!-- Element reference
+
+0 - Air
+1 - Dark
+2 - Earth
+3 - Fire
+4 - Life
+5 - Light
+6 - Magic
+7 - Tech 
+8 - Undead
+9 - Water
+10 - None
+
+Game reference
+
+0 - Spyro's Adventure
+1 - Giants
+2 - SWAP Force
+3 - Trap Team
+4 - SuperChargers
+5 - Imaginators
+6 - Eon's Elite
+-->
+
+<!-- the Skylanders root element has any number of 'figure' elements. The 'figure' element has a 'name' element, and the 'name' element has 'element' and 'series' attributes that refer to the table above. This is for sorting and color formatting after it has been processed by XSLT. There is also a 'note' element for anything noteworthy.--> 
+
+<figure>
+<name element="" series=""></name>
+<note></note>
+</figure>
+
+</skylanders>

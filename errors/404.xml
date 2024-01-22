@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/errors/errors.xsl"?> 
+<!-- this is the format of the 404 error page. I stole the formatting from the main index page, so the elements don't make any sense. It's due for a rewrite -->
+<news>
+ <content>
+  <newsitem>
+   <headline>HTTP 404 - AKA I couldn't find that</headline>
+    <newscontent>
+    <newsparagraph>I tried everything I could think of to find that file you asked me for. I scoured every directory I knew about, including the secret ones (which was hard since there are no secret directories), and I just couldn't find it. I hate to ask, but could you maybe check the URL and try again? </newsparagraph>
+    </newscontent>
+   </newsitem>
+ </content>
+</news>

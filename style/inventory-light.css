@@ -1,0 +1,39 @@
+body {color: lightyellow; background: dimgrey; font-family: monospace;}
+a:link { color: black; } 
+a:hover { color:orangered; }
+a:visited { color: purple; }
+a.postlink:link { color: lightgrey; text-decoration-color: darkslategrey;} 
+a.postlink:visited { color: grey; text-decoration-color: dimgrey;}
+a.postlink:hover { color: black ; text-decoration-color: darkcyan;}
+h1,h2,h3,h4,h5 {color: wheat;}
+p {color: lightyellow; padding: 0 5px;}
+table {border: none;}
+th {background: dimgrey; color: blue;}
+td {border: 1px solid darkgreen; border-radius: 4px; background-color:darkgreen; padding: 0px; color:yellow;}
+pre {background: darkblue; color: yellow; margin: 8px; padding: 5px; }
+code {background: darkslateblue; color: yellow;}
+blockquote {color: dimgrey; background: blanchedalmond; border: 1px solid grey; box-shadow: 5px 5px gray; padding: 3px;}
+.inventory {margin: auto; width: 850px; padding: auto 0;}
+.right_bar {color: antiquewhite; margin: auto; float: right; position: relative; background: lightslategray; border: 5px outset olivedrab; padding: 0 5px; max-width: 20%;} 
+.main { margin: 0 auto; max-width: 850px; }
+.news { float: left; max-width: 75%;}
+.newsitem {border: 1px solid green; border-radius: 5px; margin 5px; background: lightslategray;}
+.date {color: lime;}
+.footer {color: navy;}
+/* Styling for the FAQ pages */
+.faqheader {text-align: center;}
+.faqexplainer {color: burlywood;}
+.faq {background: lightslategrey; border: 1px solid darkcyan; padding: 0 5px; color: white;}
+.faqquestion {background: lightslategrey; color: lightyellow;}
+.faqanswer {background: lightslategrey; color: papayawhip;} 
+
+/* Styling for articles if I ever decide to write any */
+.articleheader {text-align: center; color: antiquewhite;}
+.articleabstract {color: greenyellow;}
+.mainarticle {border: 1px solid coral; padding: 0 5px; color: white;}
+.articletext {color: white;}
+.inlinefootnote {color: dimgrey;}
+.footnote {color: orange;}
+.footanswer {background: darkslategrey; color: papayawhip;} 
+.articlelist {background: lightslategrey; border: 1px solid firebrick; padding: 0 5px;}
+

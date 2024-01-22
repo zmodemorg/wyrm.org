@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?> 
+
+<!-- Category Reference because I will forget:
+
+1 - Internet
+2 - Opinion
+3 - Video Games
+4 - Meta
+5 - Me talking about me
+6 - Getting my time back on the Internet series
+7 - FreeBSD
+99 - Misc
+-->
+
+<!-- This has a 'blog' root element with any number of 'entry' elements. The 'entry' elements have a category, which references the list above for sorting in the XSLT file, an 'href' element which contains the link to the blog entry's xml file (either relative or absolute), 'written' which is a string, but is ostensibly for the date, and 'tags' which is a string that I'm pretending is a list of tags. 'entry' has two subelements, 'title', which is the title of the entry, and 'summary', which is the summary of the entry.  -->
+
+<blog>
+  <entry category="" href="" written="" tags="">
+    <title></title>
+    <summary></summary>
+  </entry>
+
+</blog>
+
