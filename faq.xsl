@@ -17,8 +17,6 @@
 <p class="faqexplainer">A short summary of what the FAQ page is about.</p>
  <div class="faq">
 
-<!--Loops through the faq.xml file and for every faqs/faq element, creates an h2 tag, emits a 'Q', copies the content of the 'question' element, then creates a 'p' element with content of an 'A', and copies the content of the 'answer' element. It repeats this for every item in the list. -->
-
 <xsl:for-each select="/faqs/faq">
 	<h2 class="faqquestion">Q: <xsl:copy-of select="question" /></h2>
 	 <p class="faqanswer">A: <xsl:copy-of select="answer" /></p>
@@ -27,8 +25,8 @@
 </div>
 
 <hr />
-<!-- This generates a footer with the date the FAQ was last updated by copying the 'updated' attribute of the root 'faqs' element -->
-<p class="footer">This page was last updated on <xsl:value-of select="/faqs/@updated" /></p>
+
+	<p class="footer">This page was last updated on <xsl:value-of select="/faqs/@updated" /></p>
 
 <hr />
 
