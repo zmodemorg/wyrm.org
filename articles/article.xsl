@@ -5,7 +5,6 @@
 
 <html>
 <head>
-<!-- This takes the content of the 'pagetitle' element and puts it into the title of the browser -->
 <title><xsl:value-of select="/articles/article/pagetitle" /></title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,8 +15,6 @@
 
 <div class="main">
 
-<!-- This goes through the article's xml file and does the following. It formats the content of the 'articleheader' element as an h1 at the top of the page, it formats the 'articleabstract' element as a short summary of the article just below the header. Then it emits the full text of the 'articlebody' element as-is (full HTML is allowed). -->
-
 <xsl:for-each select="/articles/article">
 
 <h1 class="articleheader"><xsl:copy-of select="articleheader" /></h1>
@@ -25,7 +22,6 @@
  <div class="mainarticle">
 <div class="articletext"><xsl:copy-of select="articlebody" /></div>
 
-<!-- This goes through all of the 'footnotes/footnote' elements and puts them into an ordered list. For now, if you want to make footnotes, you have to number them manually in the body of the text, and you have to renumber them manually if you edit them out and you want the footnote list to match the text. --> 
 <div class="articlefootnote">
   <h3 class="footnote">Footnotes</h3>
     <ol>
