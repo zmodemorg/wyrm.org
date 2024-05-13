@@ -16,18 +16,12 @@
 <div class="main">
 <h1 class="articleheader">The title of the blog</h1>
 <div class="articlelist">
-<!-- This is a quick 'n' dirty navbox. It has to be updated manually, but the gist is that there's a link to the category anchor, then a middot, then the next anchor, etc. You can have as many as you want, but you need to set up a loop for each category. -->
 
 <div class="navbox">Quick Links: <a href="#internet">Internet</a> &#183; <a href="#opinion">Opinion</a> &#183;<a href="#videogames">Video Games</a> &#183; <a href="#meta">Meta</a> &#183; <a href="#mythoughts">My Thoughts</a> &#183; <a href="#gettingmytimeback">Getting My Time Back</a> &#183; <a href="#freebsd">FreeBSD</a> &#183; <a href="#misc">Misc.</a></div>
 
 <span id="internet"><h2 class="categoryheader">Internet</h2></span>
 <h3 class="categorysubhead">Category description</h3>
 <ul>
-<!--This loops through all of the 'blog/entry' elements, looking for the 'category' attribute to have a value of '1'. When it finds it, it creates a link to the 'href' attribute and uses the value of the 'title' element as the link text, then it shows the contents of 'blogdate', makes a new line, and then shows the value of the 'summary' element and the 'tags' attribute'
-
-Once it's done, an additional loop is kicked off for each category
-
- -->
 
 <xsl:for-each select="/blog/entry">
 
