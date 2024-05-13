@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="amiibo.xsl"?> 
-<!-- The 'amiibo' root element can contain any number of 'character' elements. Each 'character' element has one 'name' element (for Amiibo name), one 'series' element (for Amiibo Series), and one 'note' element (for anything worth noting --> 
 <amiibo>
 
  <character>
