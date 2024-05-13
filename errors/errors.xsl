@@ -12,7 +12,6 @@
 
 <div class="main">
  <div class="news">
-<!-- This looks through the news/content/newsitem elements and picks out the 'headline' 'newscontent' and 'newsparagraph elements for display. The element names don't make any sense because this is one of the first things I created on this site and I reused the main index.xml structure. It needs to be rewritten with appropriate elements and it doesn't need to be a loop, either. -->
 <xsl:for-each select="news/content/newsitem">
 	<h1><xsl:value-of select="headline" /></h1>
 	 <xsl:for-each select="./newscontent">
