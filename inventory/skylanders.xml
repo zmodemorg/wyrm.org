@@ -28,8 +28,6 @@ Game reference
 6 - Eon's Elite
 -->
 
-<!-- the Skylanders root element has any number of 'figure' elements. The 'figure' element has a 'name' element, and the 'name' element has 'element' and 'series' attributes that refer to the table above. This is for sorting and color formatting after it has been processed by XSLT. There is also a 'note' element for anything noteworthy.--> 
-
 <figure>
 <name element="" series=""></name>
 <note></note>
