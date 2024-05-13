@@ -18,10 +18,6 @@
 
 <p>Some HTML goes here to talk abut this list</p>
 
-<!--This sets up an HTML table, and generates one row for each book.
-
-In the first cell of the row, it creates a link to whatever is in the 'image' element, and shows the image of the 'thumb' element with the alt text for the thumbnail as the 'alt' attribute of the 'thumb' element. The next cell shows the content of the following elements: 'title' 'edition', 'author', 'date'. Then it shows the value of the 'isbn' attribute of the 'book' element. The last cell shows the content of the 'comment' element. -->
-
 <table>
 <th>Image</th><th>Info</th><th>Comment</th>
 <xsl:for-each select="books/book">
@@ -35,7 +31,7 @@ In the first cell of the row, it creates a link to whatever is in the 'image' el
 </table>
 </div>
 </div>
-<!-- This pulls out whatever is in the 'updated' attribute of the 'books' element and shows it as the last-updated timestamp -->
+
 <p class="footer">I last remembered to change the this list's timestamp on <xsl:value-of select="/books/@updated" />.</p>
 
 <p><a href="/">Go back to the homepage</a></p>
