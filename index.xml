@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?> 
 
-<!-- This has a 'news' root element, and can have any number of 'newsitem' elements. 'newsitem' has a 'department' attribute that I use to generate a 'from the XYZ department' like you would find in MAD Magazine. The 'headline' element has a 'date' attribute (which is a string, so it can be anything), and a 'postlink' attribute that I use to generate an anchor for linking to a specific post. The contents of the 'headline' element show the title of the entry when the page is rendered. 
 
-The 'newsparagraph' element contains the HTML-formatted text of the entry. 
- -->
 <news>
 
  <newsitem department="Example">
