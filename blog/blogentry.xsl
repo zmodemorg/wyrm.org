@@ -5,7 +5,6 @@
 
 <html>
 <head>
-<!-- This takes the content of the 'pagetitle' element and puts it in the title of the transformed page -->
 <title><xsl:value-of select="/blog/entry/pagetitle" /></title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,8 +16,6 @@
 
 <div class="main">
 
-<!-- This looks through the 'blog/entry' element and extracts the 'articleheader' element for the title, 'articleabstract' for the summary, then the 'body' element for the main body (can be full HTML). It probably didn't need to be a loop, but I was naive when I wrote this. -->
-
 <xsl:for-each select="/blog/entry">
 
 <h1 class="articleheader"><xsl:copy-of select="blogtitle" /></h1>
@@ -26,18 +23,15 @@
  <div class="mainarticle">
 <div class="articletext"><xsl:copy-of select="body" /></div>
 <div class="articlefootnote">
-<!-- This goes through the 'taglist/tag' elements and extracts each one with a middot and a non-breaking space between them -->
 
   <h3 class="footnote">This entry's fake tags are: </h3>
     <p>
       <xsl:for-each select="/blog/entry/taglist/tag">
         <span class="tagcloud">&#9679;&#160;<xsl:copy-of select="." />&#160;</span>
       </xsl:for-each>
-<!-- This closes the tag loop -->
     </p>
 </div>
 </div>
-<!-- This closes the main loop -->
 </xsl:for-each>
 <hr />
 
