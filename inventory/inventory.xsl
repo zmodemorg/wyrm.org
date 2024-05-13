@@ -5,7 +5,6 @@
 
 <html>
 <head>
-<!-- This inserts a title and reads whatever value is in the 'system' attribute of the 'inventory' element -->
 <title>You already have these <xsl:value-of select="inventory/@system" /> Games</title>
 <link rel="stylesheet" type="text/css" href="../style/inventory.css" />
 <link rel="stylesheet" type="text/css" href="../style/consoles.css" />
@@ -15,7 +14,6 @@
 <body>
 <div class="main">
 <div class="inventory">
-<!-- This creates a table for all of the games in the list. First it alphabetizes the list by the 'name' element. For each row it outputs a table cell with the game name, 'title', some free-form text, 'note', and an 'emoji' element for an idea I had that didn't quite land. I selected the 'style' attribute of the 'inventory' element to select CSS classes based on the chosen style. -->
 <table class="{/inventory/@style}" >
 	<tr><th class="{/inventory/@style}" >Game</th><th class="{/inventory/@style}">Note</th><th class="{/inventory/@style}">Emoji</th></tr>
 <xsl:for-each select="inventory/game">
