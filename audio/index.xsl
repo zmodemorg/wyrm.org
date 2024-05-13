@@ -21,8 +21,6 @@
 <p>This is the description for the first show.</p>
 <ul>
 
-<!--This XSLT loops through every 'show' element in index.xml. When it finds one that has a category of '1', it prints the contents of the title element, then a dash, then the summary, then another dash, then the date, then a middot, then creates a link to the file. -->
-
 <xsl:for-each select="/index/show">
 
   <xsl:choose>
