@@ -20,8 +20,6 @@
 
 <div class="articlelist">
 
-<!-- For each category in index.xml, I set up a loop. Each loop goes through the list and tests for the category it's looking for. When it finds one, it formats the element as a table with the 'name', 'url', and 'reason' elements as values of the table --> 
-
 <h2 class="categoryheader">Category 1</h2>
 <h3 class="categorysubhead">Category 1 explainer</h3>
 <table class="blockedsites">
