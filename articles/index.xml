@@ -14,8 +14,6 @@
 99 - Misc
 -->
 
-<!-- The format of the XML file is that the root node, index, can have as many article nodes as needed. The article nodes have attributes of href, which is the url of the article, and category, which is the numeric category listed above (used for sorting). -->
-
 <index>
   <article href="" category="">
     <title>Article title</title>
