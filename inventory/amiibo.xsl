@@ -15,7 +15,6 @@
 <div class="inventory">
 <table>
 <tr><th>Amiibo</th><th>Series</th><th>Note</th></tr>
-<!-- This looks through the amiibo.xml file and first alphabetizes the list. Then it generates a simple table. Each row has three cells, and each cell is one element from the XML. 'name' is the Amiibo name, 'series' is the series the Amiibo came from, and 'note' is freeform text with some notes if applicable -->
 
 <xsl:for-each select="amiibo/character">
 <xsl:sort select="name"/>
