@@ -26,6 +26,7 @@ blockquote {color: whitesmoke; background: black; border: 1px solid dimgrey; box
 @media only screen and (max-width: 600px) {.main {margin 0 auto; max-width: 100%;}}
 .news { float: left; max-width: 75%;}
 @media only screen and (max-width: 600px) {.news {float: left; max-width: 70%}}
+@media only screen and (max-width:600px) {ul {padding-inline-start: 15px;}}
 .newsitem {border: 1px solid darkcyan; border-radius: 5px; background-image: linear-gradient(black, black); }
 .dateline {color: olivedrab;} 
 .date {color: palegreen;}
@@ -34,6 +35,7 @@ blockquote {color: whitesmoke; background: black; border: 1px solid dimgrey; box
 .danger {background: black; color: orangered; border: 1px dashed yellow; }
 .nice {background: steelblue; color: honeydew; }
 .correction {background: cornflowerblue; color: yellow; }
+.update {background: navy; color: yellow; border: 1px dashed red; padding: 3px; }
 
 /* Styling for the FAQ pages */
 .faqheader {text-align: center;}
@@ -63,3 +65,6 @@ table.vidinfo {width: 100%;}
 
 /* A few exceptions for the Blocked Sites page */
 table.blockedsites {width: 100%;}
+
+/* You can ignore this. It's a thing that I'm experimenting with to mess with AI crawlers */
+.botbot {display: none;}
