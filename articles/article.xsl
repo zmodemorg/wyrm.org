@@ -34,9 +34,13 @@
 </xsl:for-each>
 <hr />
 
-<p class="footer">This article was posted <xsl:value-of select="/articles/article/@date" />. It is almost certainly factually inaccurate, but I thought it was worth posting anyway. </p>
+<p class="footer">This article was posted <xsl:value-of select="/articles/article/@date" />
+        <xsl:choose>
+                <xsl:when test="/articles/article/@updated"> and I last updated it on <xsl:value-of select="/articles/article/@updated" />.</xsl:when>
+                <xsl:otherwise> and I haven't looked at it since. Proceed with caution.</xsl:otherwise>
+        </xsl:choose> It is almost certainly factually inaccurate, but I thought it was worth posting anyway. </p>
 
-<hr />
+ <hr />
 
 <p><a href="./">Read more articles</a> &#183; <a href="/">Go back to the homepage</a></p>
 
